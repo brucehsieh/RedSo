@@ -16,4 +16,18 @@ class ProfileCell: UITableViewCell {
         return label
     }()
 
+    let profilePic: UIImageView = {
+        let image = UIImageView()
+        return image
+    }()
+    
+    //MARK: - Init
+    override required init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.backgroundColor = .clear
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
