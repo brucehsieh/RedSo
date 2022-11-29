@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		2E54D70829275F1D00D3CF1A /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D70729275F1D00D3CF1A /* ProfileCell.swift */; };
 		2E54D70A29275F3100D3CF1A /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D70929275F3100D3CF1A /* BannerCell.swift */; };
-		2E54D70C292B218C00D3CF1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D70B292B218C00D3CF1A /* API.swift */; };
-		2E54D70E292B5F2000D3CF1A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D70D292B5F2000D3CF1A /* DataStore.swift */; };
+		2E54D70C292B218C00D3CF1A /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D70B292B218C00D3CF1A /* CatalogResponse.swift */; };
+		2E54D70E292B5F2000D3CF1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D70D292B5F2000D3CF1A /* API.swift */; };
+		2E54D711292DD16B00D3CF1A /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 2E54D710292DD16B00D3CF1A /* Reusable */; };
+		2E54D714292E041F00D3CF1A /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E54D713292E041F00D3CF1A /* Example.swift */; };
 		2EFB40E529274AFA003CB363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB40E429274AFA003CB363 /* AppDelegate.swift */; };
 		2EFB40E729274AFA003CB363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB40E629274AFA003CB363 /* SceneDelegate.swift */; };
-		2EFB40E929274AFA003CB363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB40E829274AFA003CB363 /* ViewController.swift */; };
+		2EFB40E929274AFA003CB363 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB40E829274AFA003CB363 /* ListViewController.swift */; };
 		2EFB40EE29274B00003CB363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFB40ED29274B00003CB363 /* Assets.xcassets */; };
 		2EFB40FC29274B00003CB363 /* RedSoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB40FB29274B00003CB363 /* RedSoTests.swift */; };
 		2EFB410629274B00003CB363 /* RedSoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB410529274B00003CB363 /* RedSoUITests.swift */; };
 		2EFB410829274B00003CB363 /* RedSoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB410729274B00003CB363 /* RedSoUITestsLaunchTests.swift */; };
-		2EFB411929274C53003CB363 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB411829274C53003CB363 /* MainView.swift */; };
+		2EFB411929274C53003CB363 /* ListMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFB411829274C53003CB363 /* ListMainView.swift */; };
 		2EFB411C29274D11003CB363 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2EFB411B29274D11003CB363 /* SnapKit */; };
 /* End PBXBuildFile section */
 
@@ -42,12 +44,13 @@
 /* Begin PBXFileReference section */
 		2E54D70729275F1D00D3CF1A /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		2E54D70929275F3100D3CF1A /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
-		2E54D70B292B218C00D3CF1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		2E54D70D292B5F2000D3CF1A /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		2E54D70B292B218C00D3CF1A /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
+		2E54D70D292B5F2000D3CF1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2E54D713292E041F00D3CF1A /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		2EFB40E129274AFA003CB363 /* RedSo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFB40E429274AFA003CB363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EFB40E629274AFA003CB363 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EFB40E829274AFA003CB363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EFB40E829274AFA003CB363 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2EFB40ED29274B00003CB363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFB40F229274B00003CB363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EFB40F729274B00003CB363 /* RedSoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedSoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +58,7 @@
 		2EFB410129274B00003CB363 /* RedSoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedSoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFB410529274B00003CB363 /* RedSoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSoUITests.swift; sourceTree = "<group>"; };
 		2EFB410729274B00003CB363 /* RedSoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2EFB411829274C53003CB363 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2EFB411829274C53003CB363 /* ListMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EFB411C29274D11003CB363 /* SnapKit in Frameworks */,
+				2E54D711292DD16B00D3CF1A /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E54D712292E041000D3CF1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E54D713292E041F00D3CF1A /* Example.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2EFB40D829274AFA003CB363 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		2EFB40E329274AFA003CB363 /* RedSo */ = {
 			isa = PBXGroup;
 			children = (
+				2E54D712292E041000D3CF1A /* Extensions */,
 				2EFB411729274C11003CB363 /* Controller */,
 				2EFB411629274C0A003CB363 /* View */,
 				2EFB411429274BF2003CB363 /* Model */,
@@ -138,8 +151,8 @@
 		2EFB411429274BF2003CB363 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2E54D70B292B218C00D3CF1A /* API.swift */,
-				2E54D70D292B5F2000D3CF1A /* DataStore.swift */,
+				2E54D70B292B218C00D3CF1A /* CatalogResponse.swift */,
+				2E54D70D292B5F2000D3CF1A /* API.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,7 +160,7 @@
 		2EFB411629274C0A003CB363 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2EFB411829274C53003CB363 /* MainView.swift */,
+				2EFB411829274C53003CB363 /* ListMainView.swift */,
 				2E54D70729275F1D00D3CF1A /* ProfileCell.swift */,
 				2E54D70929275F3100D3CF1A /* BannerCell.swift */,
 			);
@@ -157,7 +170,7 @@
 		2EFB411729274C11003CB363 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2EFB40E829274AFA003CB363 /* ViewController.swift */,
+				2EFB40E829274AFA003CB363 /* ListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +193,7 @@
 			name = RedSo;
 			packageProductDependencies = (
 				2EFB411B29274D11003CB363 /* SnapKit */,
+				2E54D710292DD16B00D3CF1A /* Reusable */,
 			);
 			productName = RedSo;
 			productReference = 2EFB40E129274AFA003CB363 /* RedSo.app */;
@@ -255,6 +269,7 @@
 			mainGroup = 2EFB40D829274AFA003CB363;
 			packageReferences = (
 				2EFB411A29274D11003CB363 /* XCRemoteSwiftPackageReference "Snapkit" */,
+				2E54D70F292DD16B00D3CF1A /* XCRemoteSwiftPackageReference "Reusable" */,
 			);
 			productRefGroup = 2EFB40E229274AFA003CB363 /* Products */;
 			projectDirPath = "";
@@ -297,14 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E54D70C292B218C00D3CF1A /* API.swift in Sources */,
-				2E54D70E292B5F2000D3CF1A /* DataStore.swift in Sources */,
-				2EFB40E929274AFA003CB363 /* ViewController.swift in Sources */,
-				2EFB411929274C53003CB363 /* MainView.swift in Sources */,
+				2E54D70C292B218C00D3CF1A /* CatalogResponse.swift in Sources */,
+				2E54D70E292B5F2000D3CF1A /* API.swift in Sources */,
+				2EFB40E929274AFA003CB363 /* ListViewController.swift in Sources */,
+				2EFB411929274C53003CB363 /* ListMainView.swift in Sources */,
 				2EFB40E529274AFA003CB363 /* AppDelegate.swift in Sources */,
 				2EFB40E729274AFA003CB363 /* SceneDelegate.swift in Sources */,
 				2E54D70829275F1D00D3CF1A /* ProfileCell.swift in Sources */,
 				2E54D70A29275F3100D3CF1A /* BannerCell.swift in Sources */,
+				2E54D714292E041F00D3CF1A /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +643,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2E54D70F292DD16B00D3CF1A /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		2EFB411A29274D11003CB363 /* XCRemoteSwiftPackageReference "Snapkit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/Snapkit";
@@ -638,6 +662,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2E54D710292DD16B00D3CF1A /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E54D70F292DD16B00D3CF1A /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
 		2EFB411B29274D11003CB363 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2EFB411A29274D11003CB363 /* XCRemoteSwiftPackageReference "Snapkit" */;
