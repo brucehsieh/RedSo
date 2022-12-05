@@ -52,28 +52,5 @@ class API {
     }
 }
 
-//MARK: - Get image
-extension API {
-    
-//    func getProfileImage(handler: @escaping (Result<Data, Error>) -> Void) {
-//        guard let url =  else {
-//            handler(.failure(APIError.invalidURL))
-//            return
-//        }
-//        URLSession.shared.dataTask(with: url) { data, _, error in
-//            if let error = error {
-//                handler(.failure(error))
-//                return
-//            }
-//            if let data = data {
-//                handler(.success(data))
-//            }
-//        }.resume()
-//    }
-    
-    enum APIError: Error {
-        case invalidURL
-    }
-}
 
 

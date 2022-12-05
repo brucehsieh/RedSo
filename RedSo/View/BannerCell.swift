@@ -12,8 +12,8 @@ class BannerCell: UITableViewCell, Reusable {
     
     //MARK: - UI
     
-    let bannerImageView: UIImageView = {
-        let image = UIImageView()
+    let bannerImageView: CatchImageView = {
+        let image = CatchImageView()
         image.contentMode = .scaleAspectFit
         return image
     }()
@@ -23,8 +23,7 @@ class BannerCell: UITableViewCell, Reusable {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(bannerImageView)
         bannerImageView.snp.makeConstraints { make in
-            make.width.equalToSuperview()
-            make.height.greaterThanOrEqualTo(80)
+            make.edges.equalToSuperview()
     }
 }
     required init?(coder: NSCoder) {

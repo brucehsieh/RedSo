@@ -25,8 +25,8 @@ class ProfileCell: UITableViewCell, Reusable {
     let positionLabel = createProfileLabel(text: "position")
     let expertiseLabel = createProfileLabel(text: "expertise")
     
-    let profileImageView: UIImageView = {
-        let imageView = UIImageView()
+    let profileImageView: CatchImageView = {
+        let imageView = CatchImageView()
         imageView.layer.cornerRadius = 40
         imageView.clipsToBounds = true
         return imageView
